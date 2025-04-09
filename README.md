@@ -22,8 +22,8 @@ This is a full-stack project built as part of an internship assignment. It demon
 
 ```
 Intern-Assignment/
-├── web/            # Next.js + MUI frontend
-├── mobile/         # Expo project with WebView + FCM integration
+├── nextjs/            # Next.js + MUI frontend
+├── expo-app/         # Expo project with WebView + FCM integration
 ├── README.md
 ```
 
@@ -45,9 +45,9 @@ Intern-Assignment/
 
 ## 🌐 Web App Setup (Next.js + MUI + Firebase Auth)
 
-### 📁 Navigate to `web` folder
+### 📁 Navigate to `nextjs` folder
 ```bash
-cd web
+cd nextjs
 ```
 
 ### 📦 Install dependencies
@@ -56,7 +56,7 @@ npm install
 ```
 
 ### 🔐 Add your Firebase config
-Create a `.env.local` file and include:
+Create a `.env` file and include:
 
 ```env
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
@@ -78,7 +78,7 @@ Your app will be running at: [http://localhost:3000](http://localhost:3000)
 
 ### 📁 Navigate to `mobile` folder
 ```bash
-cd mobile
+cd expo-app
 ```
 
 ### 📦 Install dependencies
